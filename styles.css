@@ -39,6 +39,8 @@
 
 .button {
     background-color: #3882f6;
+    color: #132d57;
+    /* background-color: #fff; */
     border: 0;
     border-radius: 8px;
     width: 120px;
@@ -120,7 +122,11 @@ p {
     padding-top: 20px;
     width: 600px;
 }
-.quote p {
+.quote h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    /* color:  #f9faf8; */
+    width: 400px;
     color: #1F2937;
     text-align: end;
 }
@@ -150,7 +156,8 @@ p {
 } 
 
 .containers .button {
-    color: #e3e6eb;
+    background-color: #fff;
+    color: #132d57;
     border-radius: 8px;
     width: 120px;
     font-size: 20px;
